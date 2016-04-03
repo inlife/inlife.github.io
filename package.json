@@ -1,0 +1,29 @@
+{
+  "name": "inlife.github.io",
+  "version": "1.0.0",
+  "description": "@inlife site",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Inlife/inlife.github.io.git"
+  },
+  "author": "Inlife",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Inlife/inlife.github.io/issues"
+  },
+  "homepage": "https://github.com/Inlife/inlife.github.io#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-cache-bust": "^1.0.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-eslint": "^2.0.0",
+    "gulp-git": "^1.7.0",
+    "gulp-sass": "^2.2.0",
+    "gulp-util": "^3.0.7",
+    "shortid": "^2.2.4"
+  }
+}
