@@ -25,5 +25,8 @@
     "gulp-sass": "^2.2.0",
     "gulp-util": "^3.0.7",
     "shortid": "^2.2.4"
+  },
+  "dependencies": {
+    "normalize.css": "^4.0.0"
   }
 }
