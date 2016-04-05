@@ -33,10 +33,19 @@ a {
     color: $color-interactive;
 }
 
+.red {
+    color: $color-alternative;
+}
+
+.smaller {
+    font-size: 0.9em;
+}
+
 .wrapper {
+    animation-duration: 3s;
     min-height:100%;
     position:relative;
-    margin-left: 5em;
+    margin-left: 15%;
     // padding-bottom: 50px;
 
     .header {
@@ -60,15 +69,18 @@ a {
 }
 
 .top-bar, .mid-bar, .link-bar {
-    margin-top: 2em;
-}
-
-.top-bar {
-
+    margin-top: 2.25em;
 }
 
 .mid-bar {
-    a {
-        font-weight: 700;
+    a { font-weight: 700 }
+    a:hover { color: $color-content }
+}
+
+.link-bar {
+    a { 
+        color: $color-interactive-secondary;
+        margin-right: 5px;
     }
+    a:hover { color: $color-content }
 }
