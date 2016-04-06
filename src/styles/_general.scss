@@ -19,6 +19,13 @@ html, body {
     text-align: left;
 }
 
+::selection {
+    background: #fff;
+}
+::-moz-selection {
+    background: #fff;
+}
+
 h1, h2, h3 {
     margin: 0;
     font-weight: normal;
@@ -31,6 +38,11 @@ strong {
 a {
     text-decoration: none;
     color: $color-interactive;
+
+    &:hover {
+        color: $color-content;
+        text-decoration: underline;
+    }
 }
 
 .red {
@@ -42,17 +54,21 @@ a {
 }
 
 .wrapper {
-    animation-duration: 3s;
+    animation-duration: 1s;
     min-height:100%;
     position:relative;
     margin-left: 15%;
+    margin-right: 10%;
     // padding-bottom: 50px;
 
     .header {
-        font-family: 'Montserrat', sans-serif;
-        font-weight: 700;
-        font-size: 2.25em;
-        padding-top: 2.5em;
+        padding-top: 4em;
+
+        h1 {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 5em;
+        }
     }
 
     .content {
@@ -83,4 +99,29 @@ a {
         margin-right: 5px;
     }
     a:hover { color: $color-content }
+}
+
+#projects p {
+    text-align: justify;
+}
+
+#projects ul {
+    list-style-type: none;
+    margin: 4em 0;
+    padding: 0;
+}
+
+#projects li {
+    margin: 1em 0;
+}
+
+#projects li strong:first-child {
+    font-size: 1.75em;
+}
+
+.back {
+    font-weight: normal;
+    font-size: 2em;
+    position: relative;
+    bottom: -.5em;
 }

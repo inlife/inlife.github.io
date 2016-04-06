@@ -2741,6 +2741,12 @@ html, body {
   -moz-osx-font-smoothing: grayscale;
   text-align: left; }
 
+::selection {
+  background: #fff; }
+
+::-moz-selection {
+  background: #fff; }
+
 h1, h2, h3 {
   margin: 0;
   font-weight: normal; }
@@ -2751,6 +2757,9 @@ strong {
 a {
   text-decoration: none;
   color: #6ED3FF; }
+  a:hover {
+    color: #fff;
+    text-decoration: underline; }
 
 .red {
   color: #FF6E6E; }
@@ -2759,15 +2768,17 @@ a {
   font-size: 0.9em; }
 
 .wrapper {
-  animation-duration: 3s;
+  animation-duration: 1s;
   min-height: 100%;
   position: relative;
-  margin-left: 15%; }
+  margin-left: 15%;
+  margin-right: 10%; }
   .wrapper .header {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 2.25em;
-    padding-top: 2.5em; }
+    padding-top: 4em; }
+    .wrapper .header h1 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 5em; }
   .wrapper .content {
     padding-bottom: 50px; }
   .wrapper .footer {
@@ -2793,6 +2804,26 @@ a {
 .link-bar a:hover {
   color: #fff; }
 
+#projects p {
+  text-align: justify; }
+
+#projects ul {
+  list-style-type: none;
+  margin: 4em 0;
+  padding: 0; }
+
+#projects li {
+  margin: 1em 0; }
+
+#projects li strong:first-child {
+  font-size: 1.75em; }
+
+.back {
+  font-weight: normal;
+  font-size: 2em;
+  position: relative;
+  bottom: -.5em; }
+
 @media (min-width: 1600px) {
   .wrapper {
     margin-left: 25%; } }
@@ -2805,6 +2836,6 @@ a {
   body {
     font-size: 12px; }
   .wrapper {
-    margin-left: 2em; }
+    margin: 0 2em; }
   .mid-bar {
     font-size: 17px; } }
