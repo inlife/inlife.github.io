@@ -26,7 +26,7 @@ gulp.task('lint-js', function () {
 
 gulp.task('build-css', function() {
     return gulp.src('src/styles/index.scss')
-        .pipe(sass())
+        .pipe(sass({ outputStyle: gutil.env.type === 'production' ? 'compressed' : 'default' }))
         .pipe(gulp.dest('build/'));
 });
 
@@ -34,7 +34,7 @@ gulp.task('build-js', function() {
     return gulp.src('src/scripts/*.js')
         .pipe(concat('index.min.js'))
         //only uglify if gulp is ran with '--type production'
-        .pipe(gutil.env.type === 'production' ? uglify() : gutil.noop()) 
+        // .pipe(gutil.env.type === 'production' ? uglify() : gutil.noop()) 
         .pipe(gulp.dest('build'));
 });
 
