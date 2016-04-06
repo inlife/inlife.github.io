@@ -17,6 +17,27 @@ var gulp        = require('gulp'),
     marked      = require('marked'),
     fs          = require('fs');
 
+// override for target="_blank" links
+var myRenderer = new marked.Renderer();
+myRenderer.link = function(href, title, text) {
+    var external, newWindow, out;
+    external = /^https?:\/\/.+$/.test(href);
+    newWindow = external || title === 'newWindow';
+    out = "<a href=\"" + href + "\"";
+
+    if (newWindow) {
+        out += ' target="_blank"';
+    }
+    if (title && title !== 'newWindow') {
+        out += " title=\"" + title + "\"";
+    }
+
+    return out += ">" + text + "</a>";
+};
+
+marked.setOptions({ renderer: myRenderer });
+
+// taks
 gulp.task('lint-js', function () {
     return gulp.src(['src/*.js'])
         .pipe(eslint())

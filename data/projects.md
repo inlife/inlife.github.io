@@ -84,8 +84,8 @@
 
 * **php-lexer** <br>
 **type:** open-source, personal<br>
-**link:** [https://github.com/Inlife/php-lexer](https://github.com/Inlife/php-lexer) <br>
 **year:** 2014 <br>
+**link:** [https://github.com/Inlife/php-lexer](https://github.com/Inlife/php-lexer) <br>
 **description:** PHP language lexer. Parse input php code/files, and returns array of tokens, that later can be used to build abstract syntax tree. Uses finite state machine to switch between character states, and parses input code line by line, char by char.<br>
 **responsibilities:** Development <br>
 **used technologies:** php5.4, html5, css3, git, composer
