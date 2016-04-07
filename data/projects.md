@@ -90,9 +90,10 @@
 **responsibilities:** Development <br>
 **used technologies:** php5.4, html5, css3, git, composer
 
-* **Universe Engine** <br>
+* **universe-engine** <br>
 **type:** closed-source, team<br>
-**year:** 2014<br>
+**year:** 2014-2015<br>
+**link:** [https://bitbucket.org/Inlife/universe-engine](https://bitbucket.org/Inlife/universe-engine/src) <br>
 **description:** It was a gamemode/framework for MTA:SA, built from scratch. Inlcuded code-level features: ORM, module-request, caching manager.<br>
 **responsibilities:** Development of basic modules and components, such as ORM, dependency management modules as well as some modules itself, caching manager, and creating high-level code interfaces for other team devs. <br>
 **used technologies:** lua, sqlite, mysql, git
@@ -129,9 +130,10 @@
 **responsibilities:** Full development of frontend (game code), with small backend support for highscores.<br>
 **used technologies:** js, createjs, facebook.api, php5.4, mysql, mercurial
 
-* **M2-MP Game Server** <br>
+* **nightcity-roleplay** <br>
 **type:** closed-source, team<br>
 **year:** 2013-2014 <br>
+**link:** [https://bitbucket.org/Inlife/nightcity-roleplay](https://bitbucket.org/Inlife/nightcity-roleplay/src) <br>
 **description:** Gamemode project for multiplayer modification of Mafia 2. Features: account and character systems, ingame property/building managers, server-requested gui operations. <br>
 **responsibilities:** Creating code structure, and developing project.<br>
 **used technologies:** squirrel-lang, sqlite, json
