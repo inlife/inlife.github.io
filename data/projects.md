@@ -154,6 +154,7 @@
 * **minermode** <br>
 **type:** closed-source, team <br>
 **year:** 2012-2013 <br>
+**link:** [https://bitbucket.org/Inlife/minermode](https://bitbucket.org/Inlife/minermode/src/) <br>
 **description:** It was a minecraft server and client modification, with strong community support. Self-hosted game server and webportal. <br>
 **responsibilities:** Creating platform achitecture, modifying game client launcher, implementing user registration and authentication, integration of mysql, server-side modding. <br>
 **used technologies:** java, yaml, mysql, git, ssh
@@ -161,6 +162,7 @@
 * **Century-RP** <br>
 **type:** closed-source, team <br>
 **year:** 2012 <br>
+**link:** [https://bitbucket.org/Inlife/century-rp/src/](https://bitbucket.org/Inlife/century-rp/src/) <br>
 **description:** This project was a community web-site for online game server, that included blog, accounts, game character management, statistics and admin page.<br>
 **responsibilities:** Development of frontend and backend for web part, integration with game server.<br>
 **used technologies:** php5.2, apache httpd, mysql, git, ftp, html5, css3, js, ProtoEngine
@@ -172,6 +174,14 @@
 **responsibilities:** Design(partly) and development.<br>
 **used technologies:** php5.2, vk.api, lastfm.api, soulengine, develstudio, winapi
 
+* **glossy-engine** <br>
+**type:** closed-source, personal <br>
+**year:** 2011 <br>
+**link:** [https://bitbucket.org/Inlife/glossy-engine/](https://bitbucket.org/Inlife/glossy-engine/src) <br>
+**description:** It was a game engine library/wrapper, written on php. Oriented on 2d games, and included a game porject as a showcase. Featured dynamic scene loading/unloading, scene state saving/loading, simple texture caching, 2d animation engine, 2d physics engine, audio component, simple GUI manager. <br>
+**responsibilities:** Development. <br>
+**used technologies:** php5.2, soulengine, develstudio
+
 * **vkCrizer** <br>
 **type:** closed-source, personal <br>
 **year:** 2011 <br>
@@ -182,6 +192,7 @@
 * **Personal website** <br>
 **type:** closed-source, personal <br>
 **year:** 2010-2011 <br>
+**link:** [https://bitbucket.org/Inlife/personal-site/](https://bitbucket.org/Inlife/personal-site/src) <br>
 **description:** This project was a personal website for storing and sharing some personal projects.<br>
 **responsibilities:** Frontend development, backend development using ProtoEngine. <br>
 **used technologies:** php5.2, apache httpd, html5, css3, js, ftp, ProtoEngine
