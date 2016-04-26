@@ -39,6 +39,8 @@ Please, check out: [inlife.github.com/projects.html](https://inlife.github.com/p
 * Stripe
 * PayPal
 * Parse
+* Telegram
+* Spotify
 * Mandrill/MailChimp
 * etc.
 

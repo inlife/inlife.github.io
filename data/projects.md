@@ -64,7 +64,7 @@
 **link:** [https://github.com/AntuanKhanna/agario.org](https://github.com/AntuanKhanna/agario.org) <br>
 **description:** This project consisted of many parts, such as: online game, google chrome browser extension, server game platform, website. It accumulated 500,000 players in 2 weeks from launch. It was based on existing game, and added a lot of new features and optimizations. This project was popular worldwide, and accumulated a lot of feedback. <br>
 **responsibilities:** Developing extension, reverse-engineering of existing js game code, integration with parse.api, implementing new game features, integration with amazon s3, creating backend for image processing and sharing, experimentation with new obfuscation algorithms. Taking part in product design, marketing, and user support. <br>
-**used technologies:** js, node.js, css3, html5, chrome, chrome.api, parse.api, aws, gogole.adsense, sketch3
+**used technologies:** js, node.js, css3, html5, chrome, chrome.api, parse.api, aws, google.adsense, sketch3
 
 * **hotelbooking** <br>
 **type:** open-source, team<br>
