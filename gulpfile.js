@@ -26,7 +26,7 @@ myRenderer.link = function(href, title, text) {
     out = "<a href=\"" + href + "\"";
 
     if (newWindow) {
-        out += ' target="_blank"';
+        out += 'rel="noopener noreferrer" target="_blank"';
     }
     if (title && title !== 'newWindow') {
         out += " title=\"" + title + "\"";
