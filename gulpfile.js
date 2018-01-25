@@ -3,7 +3,6 @@
 // grab our packages
 var gulp        = require('gulp'),
     gutil       = require('gulp-util'),
-    git         = require('gulp-git'),
     sass        = require('gulp-sass'),
     clean       = require('gulp-clean'),
     rename      = require('gulp-rename'),

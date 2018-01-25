@@ -1,11 +1,27 @@
+* **librg** <br>
+**type:** open-source, team<br>
+**year:** 2017-2018 <br>
+**link:** [https://github.com/librg/librg](https://github.com/librg/librg) <br>
+**description:** Pure C99 game networking library for building simple and elegant cross-platform mmo client-server solutions.<br>
+**responsibilities:** Development.<br>
+**used technologies:** C, nodejs, git
+
+* **zpl** <br>
+**type:** open-source, team<br>
+**year:** 2017-2018 <br>
+**link:** [https://github.com/zpl-c/zpl](https://github.com/zpl-c/zpl) <br>
+**description:** A collection of single-file public domain header-only libraries for C and C++.<br>
+**responsibilities:** Development.<br>
+**used technologies:** C, git
+
 * **nexrender** <br>
 **type:** open-source, personal<br>
-**year:** 2016 <br>
+**year:** 2016-2018 <br>
 **link:** [https://github.com/Inlife/nexrender](https://github.com/Inlife/nexrender) <br>
 **link:** [https://www.npmjs.com/package/nexrender](https://www.npmjs.com/package/nexrender) <br>
 **description:** Nexrender is a tool, created to automate creating and rendering adobe after effects video projects. Features: creating network of connected nodes, substitute image/audio assets in video projects, perform data-based injections inside video project on render runtime to render personalized/localized/data-driven dynamic videos, supports multiple simultaneous rendering, and rendering parallelization. This project consists of 3 main components: renderer, api-server (JSON REST) and node api wrapper <br>
 **responsibilities:** Development.<br>
-**used technologies:** js + es6, node.js, adobe after effects, travis, mocha, chai, istanbul 
+**used technologies:** js + es6, node.js, adobe after effects, travis, mocha, chai, istanbul
 
 * **circle** <br>
 **type:** open-source, team<br>

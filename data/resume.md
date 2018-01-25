@@ -30,7 +30,7 @@ Please, check out: [inlife.github.com/projects.html](https://inlife.github.com/p
 * CSS3, Bootstrap, Less, Sass, Scss
 * jQuery & plugins
 * Git, Mercurial, SVN
-* SSH, *nix terminal
+* SSH, \*nix terminal
 * OS X, Windows, Ubuntu Server
 * AWS
 
