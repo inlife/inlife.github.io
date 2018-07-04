@@ -16,11 +16,21 @@ const randomGradient = () => {
 }
 
 export default class MyApp extends App {
+    static async getInitialProps ({ Component, router, ctx }) {
+        let pageProps = {}
+
+        if (Component.getInitialProps) {
+            pageProps = await Component.getInitialProps(ctx)
+        }
+
+        return { pageProps, gradient: randomGradient() }
+    }
+
     render () {
-        const {Component, pageProps} = this.props
+        const {Component, pageProps, gradient} = this.props
         return <Container>
             <section className='auroral-container'>
-                <div className={randomGradient()}></div>
+                <div className={gradient}></div>
             </section>
 
             <div className='wrapper animated fadeIn'>
