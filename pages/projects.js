@@ -12,7 +12,7 @@ export default () => (
 
         <div className='header'>
             <div className='back'>
-                <Link href='/'><a><i className='fa fa-angle-left'></i> back</a></Link>
+                <Link prefetch href='/'><a><i className='fa fa-angle-left'></i> back</a></Link>
             </div>
 
             <h1>projects:</h1>

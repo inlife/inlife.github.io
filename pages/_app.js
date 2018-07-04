@@ -1,7 +1,7 @@
 import App, {Container} from 'next/app'
 import React from 'react'
 
-let previousGradient = null;
+let previousGradient = 'auroral-agrabah';
 const randomGradient = () => {
     const gradients = [
         'auroral-northern',
@@ -24,7 +24,7 @@ const randomGradient = () => {
 export default class MyApp extends App {
     constructor(props) {
         super(props);
-        this.state = { gradient: randomGradient() }
+        this.state = { gradient: 'auroral-agrabah' }
     }
 
     componentDidMount() {
