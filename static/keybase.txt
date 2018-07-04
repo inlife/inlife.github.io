@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/inlife
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://inlife.github.io
+  * I am inlife (https://keybase.io/inlife) on keybase.
+  * I have a public key ASBdcGtfPoLhgX7J5lJsseBwgMPPo-mz3pvFz8eYxHq-6Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "01205d706b5f3e82e1817ec9e6526cb1e07080c3cfa3e9b3de9bc5cfc798c47abee80a",
+            "host": "keybase.io",
+            "kid": "01205d706b5f3e82e1817ec9e6526cb1e07080c3cfa3e9b3de9bc5cfc798c47abee80a",
+            "uid": "60bb4243a3c56d024de9f356d201f119",
+            "username": "inlife"
+        },
+        "service": {
+            "hostname": "inlife.github.io",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.17"
+    },
+    "ctime": 1473414501,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1473414471,
+        "hash": "29604cd3d76601d4277f7a4309cc02a6c1289f98810518f9382509053fe172d79fb4303d30e7b94eba3ea8438abe633ef40732744e5203087421634ce903b4c0",
+        "seqno": 626692
+    },
+    "prev": "f74f19e7a2c3e15308e92269141c7fd2c983cb12b716d45ebc01e649de588cb3",
+    "seqno": 10,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgXXBrXz6C4YF+yeZSbLHgcIDDz6Pps96bxc/HmMR6vugKp3BheWxvYWTFAvd7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwNWQ3MDZiNWYzZTgyZTE4MTdlYzllNjUyNmNiMWUwNzA4MGMzY2ZhM2U5YjNkZTliYzVjZmM3OThjNDdhYmVlODBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwNWQ3MDZiNWYzZTgyZTE4MTdlYzllNjUyNmNiMWUwNzA4MGMzY2ZhM2U5YjNkZTliYzVjZmM3OThjNDdhYmVlODBhIiwidWlkIjoiNjBiYjQyNDNhM2M1NmQwMjRkZTlmMzU2ZDIwMWYxMTkiLCJ1c2VybmFtZSI6ImlubGlmZSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoiaW5saWZlLmdpdGh1Yi5pbyIsInByb3RvY29sIjoiaHR0cHM6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjE3In0sImN0aW1lIjoxNDczNDE0NTAxLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwibWVya2xlX3Jvb3QiOnsiY3RpbWUiOjE0NzM0MTQ0NzEsImhhc2giOiIyOTYwNGNkM2Q3NjYwMWQ0Mjc3ZjdhNDMwOWNjMDJhNmMxMjg5Zjk4ODEwNTE4ZjkzODI1MDkwNTNmZTE3MmQ3OWZiNDMwM2QzMGU3Yjk0ZWJhM2VhODQzOGFiZTYzM2VmNDA3MzI3NDRlNTIwMzA4NzQyMTYzNGNlOTAzYjRjMCIsInNlcW5vIjo2MjY2OTJ9LCJwcmV2IjoiZjc0ZjE5ZTdhMmMzZTE1MzA4ZTkyMjY5MTQxYzdmZDJjOTgzY2IxMmI3MTZkNDVlYmMwMWU2NDlkZTU4OGNiMyIsInNlcW5vIjoxMCwidGFnIjoic2lnbmF0dXJlIn2jc2lnxEAtCyiSGlXFRj0Yv6FNfowj1U7vtXiLiXbwVCD2kgxhyFBL4lSk1Soz1qrsZerP9Tv4yF93M7lQp94JcskQEfUPqHNpZ190eXBlIKRoYXNogqR0eXBlCKV2YWx1ZcQgyjOZzC3M1Nmv3vduP2kJtVlxE2XGXC1fvQdkmTGQGNWjdGFnzQICp3ZlcnNpb24B
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/inlife
+
+==================================================================
