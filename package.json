@@ -8,7 +8,7 @@
     "dev": "next",
     "build": "next build",
     "start": "next start",
-    "export": "next build && next export -o docs && cp static/keybase.txt docs/ && cp static/robots.txt docs/"
+    "export": "next build && next export -o dist && cp static/keybase.txt dist/ && cp static/robots.txt dist/"
   },
   "repository": {
     "type": "git",
