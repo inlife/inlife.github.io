@@ -1,7 +1,3 @@
 User-agent: *
 Disallow: /src/
-Disallow: /data/
-Disallow: /node_modules/
 Disallow: /.gitignore
-Disallow: /package.json
-Disallow: /gulpfile.js
