@@ -2,6 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import Head from 'next/head'
 import config from '../config'
+import Footer from '../components/Footer'
 
 export default () => (
     <div>
@@ -17,7 +18,7 @@ export default () => (
             <h1>projects:</h1>
         </div>
 
-        <div className='content'>
+        <div className='content animated fadeIn'>
             <div id='projects'>
 
 <ul>
@@ -131,8 +132,6 @@ export default () => (
             </div>
         </div>
 
-        <div className='footer'>
-            <div>made with <span className='smaller'><i className='fa fa-heart red'></i></span> {(new Date).getFullYear()}</div>
-        </div>
+        <Footer />
     </div>
 )

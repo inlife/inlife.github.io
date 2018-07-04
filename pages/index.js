@@ -2,6 +2,8 @@ import config from '../config'
 import Head from 'next/head'
 import Link from 'next/link'
 
+import Footer from '../components/Footer'
+
 export default () => (
     <div>
         <Head>
@@ -12,7 +14,7 @@ export default () => (
             <h1>hey!</h1>
         </div>
 
-        <div className='content'>
+        <div className='content animated fadeIn'>
             <div className='top-bar'>
                 <h2>I'm <strong>{ config.name }</strong></h2>
                 <h2>{ config.role } <strong>w/</strong> >{(new Date).getFullYear() - 2010} years of experience</h2>
@@ -35,8 +37,6 @@ export default () => (
             </div>
         </div>
 
-        <div className='footer'>
-            <div>made with <span className='smaller'><i className='fa fa-heart red'></i></span> {(new Date).getFullYear()}</div>
-        </div>
+        <Footer />
     </div>
 )
