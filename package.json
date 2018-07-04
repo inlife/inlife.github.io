@@ -4,11 +4,9 @@
   "description": "@inlife's site",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "next",
-    "build": "next build",
-    "start": "next start",
-    "export": "next build && next export -o dist && cp static/keybase.txt dist/ && cp static/robots.txt dist/"
+    "start": "next",
+    "export": "next build && next export -o dist && cp static/keybase.txt dist/ && cp static/robots.txt dist/ && echo '' > dist/.nojekyll",
+    "publish": "git push origin `git subtree split --prefix dist develop`:master --force"
   },
   "repository": {
     "type": "git",
