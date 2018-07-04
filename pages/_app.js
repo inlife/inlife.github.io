@@ -1,33 +1,48 @@
 import App, {Container} from 'next/app'
 import React from 'react'
 
+let previousGradient = null;
 const randomGradient = () => {
     const gradients = [
         'auroral-northern',
         'auroral-northern-intense',
         'auroral-northern-dimmed',
         'auroral-northern-dusk',
-        'auroral-northern-warm',
+        // 'auroral-northern-warm',
         'auroral-agrabah'
     ];
 
+    if (!previousGradient) {
+        return previousGradient = 'auroral-agrabah'
+    }
+
     // select one of the gradients
-    return gradients[Math.floor(Math.random() * gradients.length)]
+    const result = gradients[Math.floor(Math.random() * gradients.length)];
+    return result == previousGradient ? randomGradient() : previousGradient = result;
 }
 
 export default class MyApp extends App {
-    static async getInitialProps ({ Component, router, ctx }) {
-        let pageProps = {}
+    constructor(props) {
+        super(props);
+        this.state = { gradient: randomGradient() }
+    }
 
-        if (Component.getInitialProps) {
-            pageProps = await Component.getInitialProps(ctx)
-        }
+    componentDidMount() {
+        this.interval = setInterval(() => {
+            this.setState({
+                gradient: randomGradient()
+            })
+        }, 7500)
+    }
 
-        return { pageProps, gradient: randomGradient() }
+    componentWillUnmount() {
+        clearInterval(this.inteval);
     }
 
     render () {
-        const {Component, pageProps, gradient} = this.props
+        const { Component, pageProps } = this.props
+        const { gradient } = this.state;
+
         return <Container>
             <section className='auroral-container'>
                 <div className={gradient}></div>
