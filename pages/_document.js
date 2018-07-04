@@ -6,11 +6,6 @@ import 'animate.css'
 import '../styles/auroral.css'
 import '../styles/general.css'
 
-const randomGradient = () => {
-    const gradients = [ 'auroral-northern', 'auroral-northern-intense', 'auroral-northern-dimmed', 'auroral-northern-dusk', 'auroral-northern-warm', 'auroral-agrabah' ];
-    return gradients[Math.floor(Math.random() * gradients.length)]
-}
-
 const analyticsScript = (id) => ({
     __html: `
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -63,14 +58,7 @@ export default class MyDocument extends Document {
                     <link href='/_next/static/style.css' rel='stylesheet' />
                 </Head>
                 <body>
-                    <section className='auroral-container'>
-                        <div className={randomGradient()}></div>
-                    </section>
-
-                    <div className='wrapper animated fadeIn'>
-                        <Main />
-                    </div>
-
+                    <Main />
                     <NextScript />
                     <script dangerouslySetInnerHTML={analyticsScript('UA-76312016-1')} />
                 </body>
