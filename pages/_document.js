@@ -41,7 +41,7 @@ export default class MyDocument extends Document {
                     <meta property='og:locale' content='en_US' />
                     <meta property='og:type' content='website' />
                     <meta property='og:url' content={config.site} />
-                    <meta property='og:image' content={config.site + 'data/mario400x346.jpg?v=1'} />
+                    <meta property='og:image' content={config.site + 'static/mario400x346.jpg?v=1'} />
                     <meta property='og:site_name' content={config.name} />
 
                     <meta property='fb:admins' content='100000470641337' />
