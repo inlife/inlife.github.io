@@ -29,7 +29,7 @@ export default () => (
             </div>
 
             <div className='link-bar'>
-                <a href='mailto:vladgritsenko@gmail.com?subject=Hey!'><i className='fa fa-envelope'></i></a>
+                <a href='mailto:vladgritsenko+site@gmail.com?subject=Hey!'><i className='fa fa-envelope'></i></a>
                 <a target='_blank' rel='noopener noreferrer' href='https://github.com/inlife'><i className='fa fa-github'></i></a>
                 <a target='_blank' rel='noopener noreferrer' href='https://facebook.com/inlife360'><i className='fa fa-facebook-official'></i></a>
                 <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/inlife360'><i className='fa fa-twitter'></i></a>
