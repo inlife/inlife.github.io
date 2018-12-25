@@ -17,7 +17,7 @@ export default () => (
         <div className='content animated fadeIn'>
             <div className='top-bar'>
                 <h2>I'm <strong>{ config.name }</strong></h2>
-                <h2>{ config.role } <strong>w/</strong> >{(new Date).getFullYear() - 2010} years of experience</h2>
+                <h2>{ config.role } <strong>w/</strong> &gt;{config.yearsOfExp} years of experience</h2>
             </div>
 
             <div className='mid-bar'>

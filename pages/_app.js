@@ -1,6 +1,11 @@
 import App, {Container} from 'next/app'
 import React from 'react'
 
+import 'normalize.css'
+import 'animate.css'
+import '../styles/auroral.css'
+import '../styles/general.css'
+
 let previousGradient = 'auroral-agrabah';
 const randomGradient = () => {
     const gradients = [

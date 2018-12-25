@@ -1,11 +1,6 @@
 import Document, { Head, Main, NextScript } from 'next/document'
 import config from '../config'
 
-import 'normalize.css'
-import 'animate.css'
-import '../styles/auroral.css'
-import '../styles/general.css'
-
 const analyticsScript = (id) => ({
     __html: `
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -55,7 +50,6 @@ export default class MyDocument extends Document {
                     <link href='https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css' rel='stylesheet' type='text/css' />
                     <link href='https://fonts.googleapis.com/css?family=Montserrat:700' rel='stylesheet' type='text/css' />
                     <link href='https://fonts.googleapis.com/css?family=Roboto:700,300' rel='stylesheet' type='text/css' />
-                    <link href='/_next/static/style.css' rel='stylesheet' />
                 </Head>
                 <body>
                     <Main />
