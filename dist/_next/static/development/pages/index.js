@@ -58,14 +58,16 @@ __webpack_require__.r(__webpack_exports__);
 var name = 'Vladyslav Hrytsenko';
 var role = 'Software Engineer';
 var site = 'https://inlife.github.io/';
+var yearsOfExp = new Date().getFullYear() - 2010;
 var keywords = ['inlife', 'inlife360'].concat(name.split(' '), role.split(' ')).join(' ');
-var description = "Hey! I am ".concat(name, ", ").concat(role, " with >").concat(new Date().getFullYear() - 2010, " years of experience.");
+var description = "Hey! I am ".concat(name, ", ").concat(role, " with >").concat(yearsOfExp, " years of experience.");
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: name,
   role: role,
   site: site,
   keywords: keywords,
-  description: description
+  description: description,
+  yearsOfExp: yearsOfExp
 });
 
 /***/ }),
@@ -10514,7 +10516,7 @@ var _jsxFileName = "/Users/inlife/Projects/inlife.github.io/pages/index.js";
       lineNumber: 20
     },
     __self: this
-  }, "w/"), " >", new Date().getFullYear() - 2010, " years of experience")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, "w/"), " >", _config__WEBPACK_IMPORTED_MODULE_1__["default"].yearsOfExp, " years of experience")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "mid-bar",
     __source: {
       fileName: _jsxFileName,
@@ -10552,7 +10554,7 @@ var _jsxFileName = "/Users/inlife/Projects/inlife.github.io/pages/index.js";
   }, "projects")), " | my ", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
     target: "_blank",
     rel: "noopener noreferrer",
-    href: _config__WEBPACK_IMPORTED_MODULE_1__["default"].site + 'static/Vladyslav_Hrytsenko.pdf',
+    href: _config__WEBPACK_IMPORTED_MODULE_1__["default"].site + 'static/vladyslav_hrytsenko_2020.pdf',
     __source: {
       fileName: _jsxFileName,
       lineNumber: 27

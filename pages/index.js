@@ -24,7 +24,7 @@ export default () => (
                 <div className='hashtags'>#backend, #frontend, #mobile, #gamedev</div>
                 <div className='links'>
                     my <Link prefetch href='/projects'><a>projects</a></Link> |
-                    my <a target='_blank' rel='noopener noreferrer' href={config.site + 'static/Vladyslav_Hrytsenko.pdf'}>c.v.</a>
+                    my <a target='_blank' rel='noopener noreferrer' href={config.site + 'static/vladyslav_hrytsenko_2020.pdf'}>c.v.</a>
                 </div>
             </div>
 
