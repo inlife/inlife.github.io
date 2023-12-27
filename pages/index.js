@@ -24,12 +24,13 @@ export default () => (
                 <div className='hashtags'>#backend, #frontend, #mobile, #gamedev</div>
                 <div className='links'>
                     my <Link prefetch href='/projects'><a>projects</a></Link> |
-                    my <a target='_blank' rel='noopener noreferrer' href={config.site + 'static/vladyslav_hrytsenko_2020.pdf'}>c.v.</a>
+                    my <a target='_blank' rel='noopener noreferrer' href={config.site + 'static/vladyslav_hrytsenko_2024.pdf'}>c.v.</a>
                 </div>
             </div>
 
             <div className='link-bar'>
                 <a href='mailto:vladgritsenko+site@gmail.com?subject=Hey!'><i className='fa fa-envelope'></i></a>
+                <a target='_blank' rel='noopener noreferrer' href='https://linkedin.com/in/vladyslav-hrytsenko'><i className='fa fa-linkedin'></i></a>
                 <a target='_blank' rel='noopener noreferrer' href='https://github.com/inlife'><i className='fa fa-github'></i></a>
                 <a target='_blank' rel='noopener noreferrer' href='https://facebook.com/inlife360'><i className='fa fa-facebook-official'></i></a>
                 <a target='_blank' rel='noopener noreferrer' href='https://twitter.com/inlife360'><i className='fa fa-twitter'></i></a>
