@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+@layer base {
+  html {
+    font-family: var(--font-inter), ui-sans-serif, system-ui;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: #333;
+    color: #fff;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-grotesk), var(--font-inter), ui-sans-serif;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.2;
+    letter-spacing: -0.025em;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6ED3FF;
+    transition: color 0.2s ease;
+  }
+
+  a:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+
+  ::selection {
+    background: #fff;
+    color: #333;
+  }
+
+  ::-moz-selection {
+    background: #fff;
+    color: #333;
+  }
+
+  /* Respect reduced motion preferences */
+  @media (prefers-reduced-motion: reduce) {
+    * {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}
+
+@layer components {
+  .gradient-backdrop {
+    /* Large gradient with 15+ color stops - animate position to flow through all colors */
+    background: linear-gradient(
+      45deg,
+      #0b1020,   /* midnight */
+      #111827,   /* slate-900 */
+      #312e81,   /* indigo-900 */
+      #1e1b4b,   /* indigo-950 */
+      #3b0764,   /* purple-950 */
+      #581c87,   /* purple-900 */
+      #0e7490,   /* cyan-700 */
+      #083344,   /* teal-950 */
+      #3f0d12,   /* merlot */
+      #4a044e,   /* fuchsia-950 */
+      #1b2a41,   /* deep blue gray */
+      #0b3b2e,   /* deep green teal */
+      #1c1917,   /* stone-900 */
+      #164e63,   /* cyan-900 */
+      #1d1b38,   /* deep violet blue */
+      #0b1020    /* back to start for seamless loop */
+    );
+    background-size: 1600% 1600%;
+    animation: gradientFlow 2s ease-in-out infinite;
+  }
+
+  .content-surface {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+  }
+
+  /* Smoothly traverse through all color stops */
+  @keyframes gradientFlow {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+}
+

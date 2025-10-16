@@ -1,5 +1,7 @@
-const withCSS = require('@zeit/next-css')
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+    output: 'export',
+    trailingSlash: true,
+}
 
-module.exports = withCSS({
-    cssModules: false
-})
+module.exports = nextConfig
