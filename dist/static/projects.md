@@ -17,8 +17,9 @@
 * **nexrender**   
 **type:** open-source, personal  
 **year:** 2016-2018   
-**link:** [https://github.com/Inlife/nexrender](https://github.com/Inlife/nexrender)   
-**link:** [https://www.npmjs.com/package/nexrender](https://www.npmjs.com/package/nexrender)   
+**link:** [https://nexrender.com](https://nexrender.com)
+**link:** [https://github.com/Inlife/nexrender](https://github.com/Inlife/nexrender)
+**link:** [https://www.npmjs.com/package/nexrender](https://www.npmjs.com/package/nexrender)
 **description:** Nexrender is a tool, created to automate creating and rendering adobe after effects video projects. Features: creating network of connected nodes, substitute image/audio assets in video projects, perform data-based injections inside video project on render runtime to render personalized/localized/data-driven dynamic videos, supports multiple simultaneous rendering, and rendering parallelization. This project consists of 3 main components: renderer, api-server (JSON REST) and node api wrapper   
 **responsibilities:** Development.  
 **used technologies:** js + es6, node.js, adobe after effects, travis, mocha, chai, istanbul
